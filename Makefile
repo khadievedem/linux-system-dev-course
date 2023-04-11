@@ -1,4 +1,5 @@
 CC=gcc
+LD_LIBRARY_PATH="./lib/"  
 
 
 

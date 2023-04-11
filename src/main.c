@@ -7,7 +7,7 @@
 void (*print_msg)(const char *);
 
 bool init_library() {
-  void *hdl = dlopen("lib/libhello.so", RTLD_LAZY);
+  void *hdl = dlopen("libhello.so", RTLD_LAZY);
   if (NULL == hdl) {
     return false;
   }
