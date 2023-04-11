@@ -12,3 +12,5 @@ lib: src/hello.c src/hello.h
 
 clean:
 	-rm target/a.out lib/libhello.so 2>/dev/null
+
+.PHONY: all lib clean
