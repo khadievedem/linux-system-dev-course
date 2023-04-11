@@ -5,7 +5,7 @@ CC=gcc
 all: bin
 
 bin: src/main.c src/hello.h lib
-	$(CC) src/main.c -fPIC -Llib -lhello -o target/a.out
+	$(CC) src/main.c -fPIC -ldl -o target/a.out
 
 lib: src/hello.c src/hello.h
 	$(CC) --shared src/hello.c -fPIC -o lib/libhello.so
