@@ -1,2 +1,5 @@
 # exclude binary
 /target
+
+# exclude library
+/lib
