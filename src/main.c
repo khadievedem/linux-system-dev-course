@@ -1,7 +1,6 @@
-#include <stdio.h>
-
+#include "hello.h"
 
 int main() {
-  printf("hello world!\n");
+  print_msg("hello world!");
   return 0;
 }
